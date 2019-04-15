@@ -17,12 +17,12 @@ body {
 }
 
 .calculator {
-    margin: 60px auto 0px auto;
+    margin: 65px auto 0px auto;
     padding: 40px;
     width: 400px;
     height: 600px;
     border-radius: 40px;
-    background-color: rgb(182, 182, 182);
+    background-color: rgb(22, 22, 22);
 }
 
 .outputWindow {
@@ -30,7 +30,7 @@ body {
     width: 100%;
     height: 150px;
     border-radius: 20px;
-    background-color: white;
+    background-color: rgb(207, 207, 207);
 }
 
 .output {
@@ -39,6 +39,7 @@ body {
     float: right;
     font-size: 50px;
     font-weight: bold;
+    color: rgb(41, 41, 41);
 
 }
 
@@ -55,26 +56,45 @@ button {
     width: 84px;
     height: 70px;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: none;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 900;
-    color: rgb(37, 37, 37);
+    color: white;
+    background-color: rgb(117, 117, 117);
+}
+
+button:hover {
+    background-color: rgb(150, 150, 150) ;
+}
+
+button:active {
+    border: solid 4px rgb(59, 59, 59);
 }
 
 .backspace {
-    color: rgb(255, 91, 91);
+    color: rgb(218, 75, 75);
 }
 
 .clear{
-    color: rgb(255, 91, 91);
+    color: rgb(218, 75, 75);
 }
 
 .operation {
-    color: rgb(57, 121, 194);
+    color: rgb(96, 165, 243);
+    font-size: 40px
 }
 
 .equals {
-    background-color: rgb(57, 121, 194);
+    background-color: rgb(82, 141, 209);
     color: white;
+    font-size: 40px;
+}
+
+.equals:hover {
+    background-color: rgb(117, 159, 207);
+}
+
+.equals:active {
+    border: solid 4px rgb(21, 82, 151);
 }
