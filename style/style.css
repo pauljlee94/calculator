@@ -42,19 +42,19 @@ body {
 .calculationDisplay {
     margin: auto;
     width: 340px;
-    height: 70px;
+    height: 68px;
 }
 
 .placeholder1 {
     position: absolute;
-    margin: 40px 22px ;
+    margin: 35px 22px ;
     font-family: 'Digital';
     font-size: 33px;
     color: rgba(53, 53, 53, 0.15);
 
 }
 .calculation {
-    margin: 40px 17px 0 0;
+    margin: 35px 17px 0 0;
     float: right;
     font-family: 'Digital';
     font-size: 33px;
