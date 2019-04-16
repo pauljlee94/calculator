@@ -47,10 +47,10 @@ body {
 
 .placeholder1 {
     position: absolute;
-    margin: 40px 23px ;
+    margin: 40px 22px ;
     font-family: 'Digital';
     font-size: 33px;
-    color: rgba(53, 53, 53, 0.322);
+    color: rgba(53, 53, 53, 0.15);
 
 }
 .calculation {
@@ -75,7 +75,7 @@ body {
     font-family: 'Digital';
     font-size: 75px;
     font-weight: bold;
-    color: rgba(53, 53, 53, 0.322);
+    color: rgba(53, 53, 53, 0.15);
 
 }
 
