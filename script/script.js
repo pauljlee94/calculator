@@ -93,6 +93,11 @@ operator.forEach(function(ele) {
                     output.textContent += '/';
                     calculation += ' '
                     break;
+                case '%':
+                    previousCalcDisplay.textContent = output.textContent + "/100"
+                    a = output.textContent = output.textContent/100;
+                    calculation = String(a); 
+                    break;
                 case '=':
                     previousCalc = output.textContent
                     previousCalcDisplay.textContent = previousCalc
