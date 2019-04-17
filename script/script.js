@@ -65,7 +65,7 @@ number.forEach(function(ele) {
 
 operator.forEach(function(ele) {
     ele.addEventListener('click', function(e) {
-        if (output.textContent.length < 9) {
+        if (output.textContent.length <= 9) {
             switch (e.target.textContent) {
                 case 'C':
                     clear();
