@@ -144,6 +144,10 @@ button:active {
     font-size: 40px;
 }
 
+.point {
+    color: white;
+}
+
 .equals:hover {
     background-color: rgb(117, 159, 207);
 }
